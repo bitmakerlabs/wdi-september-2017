@@ -12,16 +12,6 @@
 
 
 # Problem: Pig Latin
-<<<<<<< HEAD
-# Pig Latin = {
-#  "apple" => "appleay",
-#  "plum" => "umplay",
-#  "grape" => "apegray",
-#  "squeeze" => "eezesquay",
-# Natalie => "atalieNay",
-# Richard => "ichardRay",
-# }
-=======
 # Pig Latin
  # "apple" => "appleay"
  # "plum" => "umplay"
@@ -77,58 +67,6 @@ puts pig_latin("apple")
 puts pig_latin("plum")
 puts pig_latin("Richard")
 
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 98f7e698061cdb727a4b6d88712304f902cf63b4
-# Problem: Find frequency of the letter "s" in a string
-# Problem: Find frequency of the letter "a" in a string
-# Problem: Find the most frequent letter in a string
-
-def vowel?(letter)
-  vowels = ['a', 'e','i', 'o', 'u','A', 'E', 'I', 'O', 'U']
-  return vowels.include?(letter)
-end
-
-
-
-def pig_latin(word)
-
-
-consonant_counter = 0
-first_letter = word.chars.first
-
-  if vowel?(first_letter)
-    word << "ay"
-  else
-
-  word.each_char do |character, index|
-    if vowel?(character)
-      break #stop
-    else
-      consonant_counter += 1 # add one to counter of consonants
-    end
-  end
-  #move the right # of consonants to the end
-  # add ay
-  word_array = word_chars
-  rotate_chars = word_array.rotate(consonant_counter)
-  word = rotated_chars.join #turn rotated_chars
-  word << "ay"
-end
-
-
-puts pig_latin("apple")
-puts pig_latin("plum")
 
 
 

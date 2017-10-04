@@ -4,6 +4,7 @@ require "mini_record"
 
 ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'films.sqlite3')
 
+<<<<<<< HEAD
 class Film < ActiveRecord::Base  #uses inheritance to use methods to write into the database, if we use .create it will store data into the database insted of the RAM
   # attr_accessor :id, :title, :country, :genre, :rating, :description
 
@@ -15,8 +16,18 @@ class Film < ActiveRecord::Base  #uses inheritance to use methods to write into 
 
 
 
+=======
+class Film < ActiveRecord::Base
+  # attr_accessor :id, :title, :country, :genre, :rating, :description
+>>>>>>> 3d6eacfbae42ad0d61a85ad0b8294ce545760553
 
+  field :title, as: :string
+  field :country, as: :string
+  field :genre, as: :string
+  field :rating, as: :integer
+  field :description, as: :text
 end
+<<<<<<< HEAD
 
 Film.auto_upgrade!
 
@@ -60,3 +71,6 @@ Film.auto_upgrade!
 #   end
 #
 # end
+=======
+Film.auto_upgrade!
+>>>>>>> 3d6eacfbae42ad0d61a85ad0b8294ce545760553

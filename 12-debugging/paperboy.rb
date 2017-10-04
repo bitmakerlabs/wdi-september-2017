@@ -1,5 +1,8 @@
 require 'pry'
+<<<<<<< HEAD
 
+=======
+>>>>>>> c95e36602286f0f6530fdcec46615c5d73b61b74
 class Paperboy
 
   def initialize(name)
@@ -33,9 +36,8 @@ class Paperboy
     if houses < quota
       pay -= 2
     elsif houses > quota
-      pay += 0.25 * houses - quota
+      pay += 0.25 * (houses - quota)
     end
-
 
     return pay
   end
@@ -47,3 +49,4 @@ me.deliver(101,160)
 puts me.report
 me.deliver(1,75)
 puts me.report
+

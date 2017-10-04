@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>my awesome site</title>
+  </head>
+  <body>
+    Put this in your pipe and smoke it bro!
+    The current time is <%= @curren_time %>
+    <!--imbeding ruby into html  -->
+    this is html list
+    <ul>
+      <li>some list item</li>
+      <li>some other items</li>
+      <li>other stuff</li>
+    </ul>
+
+    this is a ruby array
+    <ul>
+      <!-- when doing a process, we do not use an equal sign becuase the method just needs to run and the equal sign will be what we want to display(output)  -->
+      <% @todo_list.each do |item| %>
+        <li><%= item %> </li>
+        <% end %>
+    </ul>
+
+
+
+  </body>
+</html>

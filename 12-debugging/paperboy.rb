@@ -1,4 +1,8 @@
 require 'pry'
+<<<<<<< HEAD
+
+=======
+>>>>>>> c95e36602286f0f6530fdcec46615c5d73b61b74
 class Paperboy
 
   def initialize(name)

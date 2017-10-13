@@ -70,19 +70,6 @@ puts pig_latin("Richard")
 
 
 
-
-
-
-
-
-
-
-
-
-# Problem: Find frequency of the letter "s" in a string
-# Problem: Find frequency of the letter "a" in a string
-# Problem: Find the most frequent letter in a string
-
 # Problem: Find the number of violations in each violation category
 
 
@@ -241,4 +228,3 @@ violations = [ {money_owed: 50.0, violation_category: "Garbage and Refuse", date
 
 
 # Problem: Find the total money owed for each violation category
-

@@ -1,0 +1,23 @@
+As a user, i should be able to :
+
+-see a list of contacts, so that i can choose one contact. (MUST HAVE)
+-add a new contact (MUST HAVE)
+-select a contact (MUST HAVE)
+-remove a contact(SHOULD HAVE)
+-merge contacts (COULD HAVE)
+-share a contact(COULD HAVE)
+-organize(group) contacts
+-add a photo (COULD HAVE)
+-add a phone number to contact(MUST HAVE)
+-add an email to a contact(SHOULD HAVE)
+-add notes to a contact(SHOULD HAVE)
+-search for a contact (input something and get multiple	results) 9 
+-add a photo(COULD HAVE)
+-add an address(SHOULD HAVE)
+-add a birthday to a contact(COULD HAVE)
+-send a birthday greeting to a contact(WONT HAVE)
+-exchange contacts(
+-poke contacts(WONT HAVE)
+-keep track of my contact histories (COULD HAVE)
+-block a contact
+-link contact with their lindkin profile
